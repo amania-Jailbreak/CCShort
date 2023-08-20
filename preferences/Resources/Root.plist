@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Setting</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>jp.amania.ccshortpreference/PreferencesChanged</string>
+			<key>placeholder</key>
+			<string>Put URL here</string>
+			<key>label</key>
+			<string>URL</string>
+			<key>key</key>
+			<string>appbundle</string>
+			<key>defaults</key>
+			<string>jp.amania.ccshortpreference</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>Create By amania</string>
+		</dict>
+		
+	</array>
+	<key>title</key>
+	<string>CCShort</string>
+</dict>
+</plist>
